@@ -1,0 +1,32 @@
+{
+  "name": "checkmate",
+  "version": "0.0.0",
+  "description": "lightweight data validation helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "validation",
+    "checkmate",
+    "form",
+    "input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ArnaudRinquin/checkmate.git"
+  },
+  "author": {
+    "name": "Arnaud Rinquin",
+    "email": "rinquin.arnaud@gmail.com",
+    "url": "http://github.com/ArnaudRinquin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^18.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ArnaudRinquin/checkmate/issues"
+  },
+  "homepage": "https://github.com/ArnaudRinquin/checkmate#readme"
+}
