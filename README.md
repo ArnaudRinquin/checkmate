@@ -13,15 +13,17 @@ Checkmate is a very simple data validator.
 
 * no dependency
 * framework / lib / context agnostic: describe what you expect → send an object → get errors
+* does not come with validation functions, write your own or combine with libraries such as [`is.js`](http://is.js.org/)
 
 *Example*
 
 ```js
+import is from 'is_js'
+
 const checkers = checkmate({
   email: {
     notEmpty(str) { return str && str.length > 0 },
-    containsAt(str) { return str && str.indexOf('@') > -1 },
-    containsDot(str) { return str && str.indexOf('.') > -1 },
+    isEmail(str) { return is.email(str) }
   },
   password: {
     truthy(str) { return !!str },
@@ -36,5 +38,5 @@ const errors = checkers({
 
 console.log(errors)
 
-// → { email: ['containsAt', 'containsDot'], password: ['truthy'] }
+// → { email: ['isEmail'], password: ['truthy'] }
 ```
