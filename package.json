@@ -22,7 +22,7 @@
     "url": "http://github.com/ArnaudRinquin"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^18.1.0"
   },
   "bugs": {
