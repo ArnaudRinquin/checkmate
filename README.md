@@ -1,6 +1,6 @@
 # checkmate
 
-[![Build Status](https://travis-ci.org/ArnaudRinquin/checkmate.svg?branch=master)](https://travis-ci.org/ArnaudRinquin/checkmate)
+[![Build Status](https://travis-ci.org/ArnaudRinquin/checkmate.svg?branch=master)](https://travis-ci.org/ArnaudRinquin/checkmate) [![npm version](https://badge.fury.io/js/checkmate.svg)](https://badge.fury.io/js/checkmate)
 
 Checkmate is a very simple data validator.
 
