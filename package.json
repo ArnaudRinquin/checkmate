@@ -1,6 +1,6 @@
 {
   "name": "checkmate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "lightweight data validation helper",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,9 @@
     "url": "https://github.com/ArnaudRinquin/checkmate/issues"
   },
   "jest": {
-    "testPathIgnorePatterns": [ "/examples/" ]
+    "testPathIgnorePatterns": [
+      "/examples/"
+    ]
   },
   "homepage": "https://github.com/ArnaudRinquin/checkmate#readme"
 }
