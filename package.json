@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/ArnaudRinquin/checkmate/issues"
   },
+  "jest": {
+    "testPathIgnorePatterns": [ "/examples/" ]
+  },
   "homepage": "https://github.com/ArnaudRinquin/checkmate#readme"
 }
