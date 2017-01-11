@@ -17,17 +17,20 @@ Checkmate is a very simple data validator.
 
 *Example*
 
+See the [`react + is_js`](./examples/react-is_js) example.
+
 ```js
+import checkmate from 'checkmate'
 import is from 'is_js'
 
 const checkers = checkmate({
   email: {
-    notEmpty(str) { return str && str.length > 0 },
-    isEmail(str) { return is.email(str) }
+    notEmpty: (str) => !is.empty(str),
+    isEmail: is.email,
   },
   password: {
-    truthy(str) { return !!str },
-    minLength(str) { return str && str.length >= 8 },
+    truthy: (str) => !!str,
+    minLength: (str) => str && str.length > 7,
   },
 })
 
