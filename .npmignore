@@ -1,0 +1,6 @@
+*.js
+examples
+_config.yml
+.*
+*.tgz
+yarn.lock
