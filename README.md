@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Deprecated.** This project is no longer maintained and is kept for reference only. Issues and pull requests are not monitored.
+
 # checkmate
 
 [![Build Status](https://travis-ci.org/ArnaudRinquin/checkmate.svg?branch=master)](https://travis-ci.org/ArnaudRinquin/checkmate) [![npm version](https://badge.fury.io/js/checkmate.svg)](https://badge.fury.io/js/checkmate)
